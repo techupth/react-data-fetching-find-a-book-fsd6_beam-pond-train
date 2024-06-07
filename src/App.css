@@ -1,4 +1,47 @@
+* {
+  background-color: rgb(28, 20, 58);
+}
+
 .App {
-  font-size: x-large;
-  margin-left: 20px;
+  text-align: center;
+  margin: 20px;
+ 
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: white;
+ 
+}
+
+button {
+  padding: 10px 20px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+  margin: 20px 0;
+  color: whitesmoke;
+  
+}
+
+h3 {
+  margin: 5px 0;
 }
